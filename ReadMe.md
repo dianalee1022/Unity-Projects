@@ -12,8 +12,18 @@ For Lab1, I created a scene, simulating a simple catapult -- in the shape of a c
 The CameraRig used inside the scene is a prefab from Steam VR Plugin which is available on the Unity Asset Store.
 
 ### Shooting using keyboard
+1. Aim a target
+2. Press the following keys to move the cannon vent accordingly:
+- *Left arrow key* : Left direction
+- *Right arrow key* : Right direction
+- *Up arrow key* : Lift-up the cannon vent
+- *Down arrow key* : Lower the cannon vent
+3. Press the *space bar* to fire a bullet toward the target
 
 ### Shooting using Oculus Rift
+1. Put on the Oculus Rift and start appropriate software including Oculus/SteamVR
+2. Aim a target by moving head
+3. Once aimed, press the *trigger* on the *right hand controller* to fire a bullet
 
 ## Lab0
 ### Description
