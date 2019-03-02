@@ -1,12 +1,28 @@
 # EECS4471 Labs
 
 ## Table of Contents
-1. [Lab1](#lab1)
-2. [Lab0](#lab0)
+1. [Lab2](#lab2)
+2. [Lab1](#lab1)
+3. [Lab0](#lab0)
+
+## Lab2
+### Description
+In this particular laboratory experiment, I explored Unity's UI component, including buttons, sliders, toggles and others. Different types of Canvas were utilized as well; the overlay type one was used to control the overall scene while the local world coordinate canvas was used to control individual particles. Combining these UI components with Unity's physics engine, I wrote scripts that control the light intensity, change gravity, add prefabs on random coordinates and apply impulse force. Initially, these actions were triggered by mouse movements (e.g. clicking the buttons, toggling the switches, etc.) and then mapped to different keys on Oculus' controllers. The more in-depth instructions on how to interact with different components are provided below.
+
+### Credits
+* The **tree**,**rocks**,**bone** and **well** prefabs used were provided by [23 Space Robots and Counting...](https://assetstore.unity.com/publishers/21779) which is available on the Unity Asset Store.
+
+### Overall Menu
+When a user enters the playmode, the overlay menu can be seen. The menu consists of multiple components:
+* Toggles & Sliders to control light sources
+* Slider to manipulate gravity & text representation
+* Button to apply the new gravity value
+* Button to add a particle on a random coordinate
+* Button to apply impulse force
 
 ## Lab1
 ### Description
-For Lab1, I created a scene, simulating a simple catapult -- in the shape of a cannon -- and its targets -- in the shape of coins. A user can aim the targets using either keyboard keys or head gaze from Oculus VR device. 
+For Lab1, I created a scene, simulating a simple catapult -- in the shape of a cannon -- and its targets -- in the shape of coins. A user can aim the targets using either keyboard keys or head gaze from Oculus VR device.
 
 ### Credits
 The CameraRig used inside the scene is a prefab from Steam VR Plugin which is available on the Unity Asset Store.
