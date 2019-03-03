@@ -9,8 +9,8 @@ public class LightControl : MonoBehaviour
     public Light lightSource;
 
     private Slider lightController;
-    private readonly float MIN_VALUE = 1000;
-    private readonly float MAX_VALUE = 20000;
+    private readonly float MIN_VALUE = 1000f;
+    private readonly float MAX_VALUE = 20000f;
 
     // Start is called before the first frame update
     void Start()
