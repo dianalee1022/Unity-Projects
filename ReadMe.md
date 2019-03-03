@@ -13,12 +13,47 @@ In this particular laboratory experiment, I explored Unity's UI component, inclu
 * The **tree**,**rocks**,**bone** and **well** prefabs used were provided by [23 Space Robots and Counting...](https://assetstore.unity.com/publishers/21779) which is available on the Unity Asset Store.
 
 ### Overall Menu
-When a user enters the playmode, the overlay menu can be seen. The menu consists of multiple components:
+![Screenshot Image of Overlay Screen Menu](https://github.com/dianalee1022/Unity-Projects/blob/master/img/menu.PNG)
+When a user enters the playmode, the overlay menu as shown above can be seen. The menu consists of multiple components:
 * Toggles & Sliders to control light sources
 * Slider to manipulate gravity & text representation
 * Button to apply the new gravity value
 * Button to add a particle on a random coordinate
 * Button to apply impulse force
+
+Overlay Screen Menu from Player perspective:
+![Screenshot Image of Overlay Screen Menu](https://github.com/dianalee1022/Unity-Projects/blob/master/img/overview.PNG)
+
+### Control Light sources
+![Red and Blue Lights On](https://github.com/dianalee1022/Unity-Projects/blob/master/img/red%2Bblue_light.PNG)
+As shown in the image above, the scene consists of 3 controllable light components: Blue, Green and Red lights.
+1. Indicate your intention of controlling light source of your choice by clicking the toggle button (left side of each light source label)
+2. Once the toggle button has a checkmark on, then play around with the intensity of the corresponding light source
+* The light intensity modifies both intensity and range of the light object to maximize the controlling effects.
+
+### Manipulate Gravity and Text representation
+![Gravity Control](https://github.com/dianalee1022/Unity-Projects/blob/master/img/apply_gravity%2Bfreeze.PNG)
+The gravity controller is located below the 3 light controllers. It consists of three items: the text title, the text label representing the current magnitude of gravity force, and the slider to control the magnitude.
+1. The initial magnitude of the gravity force is set to 9.8.
+* The gravity force usually takes a negative value as it's applied away from the earth. However, in this lab, for user's easier understanding, it'll be displayed as a positive value on UI.
+2. To modify the value, simply drag the slider to the left or right.
+
+### Apply the new gravity value
+Right under the gravity controller, a button labelled "Apply Gravity (To All)" will allow the user to apply the new gravitational force to all newly added particles.
+1. Set the gravity magnitude to a desired value
+2. To apply the new gravity, press the button labelled "Apply Gravity (to All)."
+3. To stop applying the gravity to all particles, press the *freeze* button.
+
+### Add a particle on a random coordinate
+![Add new objects](https://github.com/dianalee1022/Unity-Projects/blob/master/img/add_objects.PNG)
+Outside of the panel, two additional buttons can be found near the left bottom corner of the overlay screen.
+1. Press the button labelled "Add Objects" to add a purple sphere on a random coordinates with randomly selected orientation
+
+### Apply impulse force
+![Apply impulse force](https://github.com/dianalee1022/Unity-Projects/blob/master/img/apply_impulse_force.PNG)
+The other button is to apply impulse force on all newly created particles.
+1. Press "Surprise Force" button to apply impulse force on all newly created particles.
+* The force will be applied in random directions.
 
 ## Lab1
 ### Description
